@@ -1,0 +1,26 @@
+{
+  "name": "node-server",
+  "version": "1.0.0",
+  "description": "Simple Node.js test server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/superbrilliant/node-server.git"
+  },
+  "author": "James Connor <james@superbrilliant.io>",
+  "bugs": {
+    "url": "https://github.com/superbrilliant/node-server/issues"
+  },
+  "homepage": "https://github.com/superbrilliant/node-server#readme",
+  "dependencies": {
+    "bunyan": "^1.8.1",
+    "express": "^4.14.0",
+    "node-uuid": "^1.4.7"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}
